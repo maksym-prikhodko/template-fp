@@ -1,0 +1,19 @@
+{
+	"name": "cra-template-foolproof",
+	"version": "0.1.0",
+	"keywords": [
+		"react",
+		"create-react-app",
+		"template",
+		"typescript"
+	],
+	"description": "My TypeScript template for CRA apps.",
+	"license": "MIT",
+	"engines": {
+		"node": ">=10"
+	},
+	"files": [
+		"template",
+		"template.json"
+	]
+}
