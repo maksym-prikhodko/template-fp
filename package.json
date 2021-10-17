@@ -15,5 +15,14 @@
 	"files": [
 		"template",
 		"template.json"
-	]
+	],
+	"devDependencies": {
+		"cz-conventional-changelog": "3.3.0",
+		"standard-version": "^9.0.0"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
 }
