@@ -8,6 +8,9 @@
 		"typescript"
 	],
 	"description": "My TypeScript template for CRA apps.",
+	"scripts": {
+		"release": "standard-version"
+	},
 	"license": "MIT",
 	"engines": {
 		"node": ">=10"
