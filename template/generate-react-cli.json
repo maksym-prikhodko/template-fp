@@ -1,0 +1,31 @@
+{
+	"usesTypeScript": true,
+	"usesCssModule": true,
+	"cssPreprocessor": "scss",
+	"testLibrary": "Enzyme",
+	"component": {
+		"default": {
+			"customTemplates": {
+				"component": "templates/component/Component.tsx",
+				"style": "templates/component/style.scss"
+			},
+			"path": "src/components",
+			"withLazy": false,
+			"withStory": true,
+			"withStyle": true,
+			"withTest": true
+		},
+		"page": {
+			"customTemplates": {
+				"component": "templates/page/Page.page.tsx",
+				"style": "templates/page/style.scss",
+				"lazy": "templates/page/Page.lazy.tsx"
+			},
+			"path": "src/pages",
+			"withLazy": true,
+			"withStory": false,
+			"withStyle": true,
+			"withTest": true
+		}
+	}
+}
