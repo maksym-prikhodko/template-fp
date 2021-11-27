@@ -7,6 +7,8 @@
 		"template",
 		"typescript"
 	],
+	"repository": "gitlab:kozlovvski/cra-template-foolproof",
+	"homepage": "https://gitlab.com/kozlovvski/cra-template-foolproof",
 	"description": "My TypeScript template for CRA apps.",
 	"scripts": {
 		"release": "standard-version"
